@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block nav%}
+<a class="item active" href="{{url_for('main.index')}}">Home</a>
+<a class="item" href="{{url_for('myusers.login')}}">Sign In</a>
+{% endblock%}
+{% block content %}
+<h1 class=" ui inverted header">Error 403</h1>
+<p>
+   Access Denied......No permission to edit this page.....Login with correct user...
+</p>
+{% endblock %}

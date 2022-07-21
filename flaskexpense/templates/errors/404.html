@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block nav%}
+<a class="item active" href="{{url_for('main.index')}}">Home</a>
+<a class="item" href="{{url_for('myusers.login')}}">Sign In</a>
+{% endblock%}
+{% block content %}
+<h1 class=" ui inverted header">Error 404</h1>
+<p>
+   Route does not exist. Please Check
+</p>
+{% endblock %}
