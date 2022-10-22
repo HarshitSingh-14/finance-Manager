@@ -1,3 +1,4 @@
+------------------
 # Money Managing System :
 > The system is made to analyse number of places where a person wastes his/her money extravagantly. We can add delete and edit items where we have spend the money.
 > We can also add category its timestamp to visualise through charts.
